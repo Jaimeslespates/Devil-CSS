@@ -1,3 +1,5 @@
+@import "impl/3D-Text";
+
 @each $key, $val in $colors {
 
   .text-#{$key} {
