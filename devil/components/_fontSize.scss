@@ -1,5 +1,0 @@
-@for $i from 0 through 9 {
-  .fs-#{$i} {
-    font-size: calc(1rem + #{$i*0.25}rem);
-  }
-}

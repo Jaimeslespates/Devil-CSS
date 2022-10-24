@@ -1,10 +1,21 @@
 
+/*
+
+            D E V I L
+
+        Made by _Jaimeslespates
+
+ */
+
+
+
 // Variables
+@import "config";
 @import "var/colors";
-@import "var/margin-padding";
 
 // Utils
 
+@import "utils/breakpoints";
 @import "utils/genMap";
 @import "utils/fonts";
 @import "utils/reset";
@@ -15,10 +26,12 @@
 // Component Base
 
 @import "components/colorsComp";
-@import "components/fontSize";
 
 // Components
 
+@import "components/impl/grid";
+@import "components/impl/cards";
+@import "components/impl/buttons";
 @import "components/impl/3D-Text";
 @import "components/impl/titles";
 @import "components/impl/margin-padding";
